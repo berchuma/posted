@@ -1,0 +1,78 @@
+@import "../vars.css";
+
+.sectionA{
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 61px; 
+  margin-bottom: 50px;
+  z-index: 1;
+  
+    
+  
+  
+}
+
+.and,
+.hulet,
+.sost{
+  display: flex;
+  border-radius: 30px;
+  
+  border-width: 0;
+  border-style: solid;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  background-color: rgb(201, 201, 201);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  height: 400px;
+  font-size: 30px;
+  color: rgb(26, 24, 24);
+  max-width: 400px;
+}
+
+
+.headers{
+  text-transform: uppercase;
+  color: beige;
+  margin-bottom: 70px;
+}
+
+.paragraph{
+  margin-left: 30px;
+  
+  
+}
+
+@media screen and (max-width: 830px){
+    .sectionA{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 61px; 
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+        .and,
+        .hulet,
+        .sost{
+          margin-right: 0;
+
+        }
+        
+        .and,.hulet{
+          margin-top: 30px;
+          margin-bottom: 10px;
+         
+        }
+        
+         
+        
+        
+        
+         
+}

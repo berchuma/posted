@@ -1,0 +1,103 @@
+@import "../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;   /* the pading from the the top of thne page*/
+  
+  /* margine to the hor/vert */
+  background-color: #c17f48;
+  padding-right: 10px;
+  
+}
+/*all setting of the logo*/
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text); /* from the impored value*/
+}
+/* navbar=nav
+title=div
+menu=div
+menuItem=ul
+menuItem a=the letters(a)
+*/
+
+
+/*the dropdown menu sterched end to end  */
+.menu {
+  display: flex;
+ 
+
+}
+
+/*the itmes ,gap,stype(dots) */
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none; /*to ereze the dots*/
+}
+
+/*the later in the nave*/
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none; /*to remove the underline of the latter( if we dont do this it will have app+
+  navbar bg color )*/
+}
+.menuBtn{
+  display: none;
+  margin-top: -25px;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {  /*it will have the abov behavers too */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+    margin-top: -25px;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+    
+  }
+/* the items are hide by default
+
+all color styling of dropdown*/
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .menuOpen {/* when clike */
+    display: flex;
+    z-index: 1;/*on the top of all */
+  }
+  
+}
