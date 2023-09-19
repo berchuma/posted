@@ -17,7 +17,7 @@ import styles from "./foot.module.css";
         </li>
         <li className={styles.link}>
           
-          <a href="https://www.linkedin.com/myname">0945464475</a>
+          <a href="https://www.linkedin.com/myname">0945464475</a >
         </li>
       
       </ul>
