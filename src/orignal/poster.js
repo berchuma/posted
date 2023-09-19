@@ -16,7 +16,7 @@ const Postr = () => {
       </div>
       <img
         src='https://uploads-ssl.webflow.com/64f95a226e01da60abcda20f/6501a0a5994dc19d15c96c0f_lala.png'
-        alt="Hero image of me"
+        alt="Hero"
         className={styles.heroImgA}
       />
       <div className={styles.topBlur} />

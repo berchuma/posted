@@ -3,7 +3,7 @@
 .sectionA{
   position: relative;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   padding-top: 61px; 
   margin-bottom: 50px;

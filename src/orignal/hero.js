@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       <img
         src='https://uploads-ssl.webflow.com/64f95a226e01da60abcda20f/6501b589a0c1f956c008ceab_Prints%20of%20Ethiopian%20Bible%20and%20rosary%2C%20Jerusalem%2C%20Israel%2C%20Middle%20East.jpg'
-        alt="Hero image of me"
+        alt="hero"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

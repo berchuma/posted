@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import styles from "./box.module.css";
-import { getImageUrl } from "../utils";
+
 
 
 
 const Box = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  
 
 
 
